@@ -726,6 +726,12 @@ body {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transform: fill var(--transition-duration-and-funk);
+}
+
+.button.close-modal:focus,
+.button.close-modal:hover {
+  fill: var(--accent-color);
 }
 
 @keyframes modal-animate-open {
@@ -855,6 +861,10 @@ body {
   line-height: 1.71;
   cursor: pointer;
   margin-bottom: 30px;
+}
+
+.terms_of_agreement-link{
+  color:var(--accent-color) ;
 }
 
 .check-deskription::before {
