@@ -577,8 +577,8 @@ body {
 
   background-color: #f5f4fa;
 
+  color: var(--title-color);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.6;
   white-space: nowrap;
 
@@ -863,8 +863,8 @@ body {
   margin-bottom: 30px;
 }
 
-.terms_of_agreement-link{
-  color:var(--accent-color) ;
+.terms_of_agreement-link {
+  color: var(--accent-color);
 }
 
 .check-deskription::before {
